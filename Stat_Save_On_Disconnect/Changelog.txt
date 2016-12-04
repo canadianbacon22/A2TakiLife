@@ -1,0 +1,11 @@
+Stat Save on Disconnect
+
+The goal of this is to prevent duping which happens because your stats don't save in time.
+
+Ex.: Wire transfer funds to another player, disconnect before stats save -> Other play has wired money, you still have your original amount.
+
+The stat save on disconnect works with a timer when a player opens the escape menu. When the abort time hits 0 (well, 1 - after 5 seconds) - it executes the stat save script. Once the script finishes saving the stats, the player can then abort.
+
+The files are structed in the order that you need to replace/add things. (Ex.: So if something is in Awesome\Client - then you would add those things into the Awesome\Client folder)
+
+Script made by Canadian Bacon
